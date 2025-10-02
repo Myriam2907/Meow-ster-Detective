@@ -69,21 +69,23 @@ python compare_train.py
 Here are visual comparisons of different data augmentation techniques applied during training:
 
 **Augmentation Comparison Table:**  
-![Augmentation Comparison Table](screenshots/data-com.JPG)
+![Augmentation Comparison Table](./screenshots/data-com.JPG)
 
 **Accuracy & Precision Plot:**  
-![Accuracy & Precision Plot](screenshots/pl.JPG)
+![Accuracy & Precision Plot](./screenshots/pl.JPG)
 
 ## 🐱 Real-time Cat Recognition – Screenshots
 
 Here are some screenshots of the cat recognition app in action:
 
 **Webcam Detection Example:**  
-![Webcam Detection](screenshots/webcam1.JPG)
+![1st known cat](screenshots/yuki.JPG)
+![2nd known cat](screenshots/deniz.JPG)
+![3rd known cat](screenshots/snow.JPG)
+![unknown cat](screenshots/danger.JPG)
+![two cats](screenshots/two.jpg)
+➡️ Even though the two cats look very similar (same fur color, same eye color), the model successfully distinguishes between them.
 
-**Suspicious Cat Alert Example:**  
-![Suspicious Cat Alert](screenshots/webcam2.JPG)
+😺 Note: The fourth known cat, Caramel, isn’t shown in the demo because he was sleeping during recording.
 
-**Top-3 Predictions Display:**  
-![Top-3 Predictions](screenshots/webcam3.JPG)
 
