@@ -14,6 +14,33 @@ A real-time cat face recognition app using **TensorFlow**, **OpenCV**, and **Str
 
 ---
 
+
+###DEMO
+
+## 🐱 Real-time Cat Recognition – Screenshots
+
+Here are some screenshots of the cat recognition app in action:
+
+**Webcam Detection Example:**  
+![1st known cat](./screenshots/yuki.JPG)
+![2nd known cat](./screenshots/deniz.JPG)
+![3rd known cat](./screenshots/snow.JPG)
+![unknown cat](./screenshots/danger.JPG)
+![two cats](./screenshots/two.jpg)
+➡️ Even though the two cats look very similar (same fur color, same eye color), the model successfully distinguishes between them.
+
+😺 Note: The fourth known cat, Caramel, isn’t shown in the demo because he was sleeping during recording.
+
+## 📊 Data Augmentation Comparison
+
+Here are visual comparisons of different data augmentation techniques applied during training:
+
+**Augmentation Comparison Table:**  
+![Augmentation Comparison Table](./screenshots/data-com.JPG)
+
+**Accuracy & Precision Plot:**  
+![Accuracy & Precision Plot](./screenshots/pl.JPG)
+
 ## Project Structure
 
 Meow-ster Detective/  
@@ -61,31 +88,5 @@ streamlit run app.py
 
 ## 5. Compare Data Augmentation Techniques
 python compare_train.py
-
-###DEMO
-
-## 📊 Data Augmentation Comparison
-
-Here are visual comparisons of different data augmentation techniques applied during training:
-
-**Augmentation Comparison Table:**  
-![Augmentation Comparison Table](./screenshots/data-com.JPG)
-
-**Accuracy & Precision Plot:**  
-![Accuracy & Precision Plot](./screenshots/pl.JPG)
-
-## 🐱 Real-time Cat Recognition – Screenshots
-
-Here are some screenshots of the cat recognition app in action:
-
-**Webcam Detection Example:**  
-![1st known cat](./screenshots/yuki.JPG)
-![2nd known cat](./screenshots/deniz.JPG)
-![3rd known cat](./screenshots/snow.JPG)
-![unknown cat](./screenshots/danger.JPG)
-![two cats](./screenshots/two.jpg)
-➡️ Even though the two cats look very similar (same fur color, same eye color), the model successfully distinguishes between them.
-
-😺 Note: The fourth known cat, Caramel, isn’t shown in the demo because he was sleeping during recording.
 
 
